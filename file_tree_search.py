@@ -14,5 +14,5 @@ def printnames(start_dir):
             else:
                 search_queue.append(full_path)
 
-printnames("/home/mario/grokking-algorithms/test_folder_main")
+printnames("./test_folder_main")
 

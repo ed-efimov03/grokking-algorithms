@@ -9,4 +9,4 @@ def printnames(dir):
         else:
             printnames(full_path)
 
-printnames("/home/mario/grokking-algorithms/test_folder_main")
+printnames("./test_folder_main")
