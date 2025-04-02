@@ -1,5 +1,4 @@
-if __name__ == "__main__":
-    def max_number(arr):
+def max_number(arr):
         if len(arr) == 2:
             if arr[0] > arr[1]:
                 return arr[0] 
@@ -11,4 +10,5 @@ if __name__ == "__main__":
         else:
             return sub_max_number
         
+if __name__ == "__main__":    
     print(max_number([3, 5, 7, 6]))

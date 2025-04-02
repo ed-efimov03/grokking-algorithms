@@ -1,5 +1,4 @@
-if __name__ == "__main__":
-    def quick_sort(arr):
+def quick_sort(arr):
         if len(arr) <= 1 :
             return arr
         else:
@@ -18,7 +17,8 @@ if __name__ == "__main__":
                     e.append(n)
 
             return quick_sort(l) + e + quick_sort(r)
-
+        
+if __name__ == "__main__":
     print(quick_sort([4, 1, 6, 3, 2, 7, 8]))
 
             
