@@ -46,6 +46,7 @@ python3 ./004-Quick-sort/quick_sort.py
 ```bash
 python3 ./004-Quick-sort/sum.py 
 ```
+
 # Глава 5 Хеш-таблицы
 Код алгоритмов находится в папке `./005-Hash-tables`
 В этой папке есть файлы cache.py voters.py
@@ -61,24 +62,44 @@ python3 ./005-Hash-tables/voters.py
 ```bash
 python3 ./005-Hash-tables/cache.py 
 ```
+
 # Глава 6 Поиск в ширину 
 Код алгоритма находится в папке `./006-Breadth-first-search`
 Чтобы запустить алгоритм, необходимо запустить скрипт search.py 
 ```bash
 python3 ./006-Breadth-first-search/search.py 
 ```
+
+# Глава 7 Деревья
+Код алгоритмов находится в папке `./007-Depth-first-search`
+В этой папке есть файлы depth_first_search.py file_tree_search.py 
+
+1) Алгоритм depth_first_search.py реализует поиск в глубину
+Чтобы запустить алгоритм, необходимо запустить скрипт depth_first_search.py 
+```bash
+python3 ./007-Depth-first-search/depth_first_search.py 
+```
+
+2) Алгоритм file_tree_search.py реализует поиск в ширину
+Чтобы запустить алгоритм, необходимо запустить скрипт file_tree_search.py 
+```bash
+python3 ./007-Depth-first-search/file_tree_search.py 
+```
+
 # Глава 9 Алгоритм Дейкстры 
 Код алгоритма находится в папке `./009-Dijkstra’s-algorithm`
 Чтобы запустить алгоритм, необходимо запустить скрипт dijkstra_algorithm.py 
 ```bash
 python3 ./009-Dijkstra’s-algorithm/dijkstra_algorithm.py 
 ```
+
 # Глава 10 Жадный алгоритм
 Код алгоритма находится в папке `./010-Greedy-algorithm`
 Чтобы запустить алгоритм, необходимо запустить скрипт greedy_algorithm.py 
 ```bash
 python3 ./010-Greedy-algorithm/greedy_algorithm.py 
 ```
+
 # Глава 11 Динамическое программирование 
 Код алгоритмов находится в папке `./011-Dynamic-programming`
 В этой папке есть файлы dynamic-programming.py dynamic-programming2.py 
@@ -94,3 +115,6 @@ python3 ./011-Dynamic-programming/dynamic-programming.py
 ```bash
 python3 ./011-Dynamic-programming/dynamic-programming2.py 
 ```
+
+
+
