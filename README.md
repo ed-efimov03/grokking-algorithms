@@ -46,3 +46,18 @@ python3 ./004-Quick-sort/quick_sort.py
 ```bash
 python3 ./004-Quick-sort/sum.py 
 ```
+# Глава 5 Хеш-таблицы
+Код алгоритмов находится в папке `./005-Hash-tables`
+В этой папке есть файлы cache.py voters.py
+
+1) Алгоритм voters.py допускает человека до голосовани, если он еще не голосовал
+Чтобы запустить алгоритм, необходимо запустить скрипт voters.py 
+```bash
+python3 ./005-Hash-tables/voters.py 
+```
+
+2) Алгоритм cache.py имитирует работу кэша
+Чтобы запустить алгоритм, необходимо запустить скрипт cache.py 
+```bash
+python3 ./005-Hash-tables/cache.py 
+```
