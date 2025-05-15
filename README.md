@@ -116,5 +116,8 @@ python3 ./011-Dynamic-programming/dynamic-programming.py
 python3 ./011-Dynamic-programming/dynamic-programming2.py 
 ```
 
+# Доставка
+[Чтобы прочитать информацию по этому модулю перейдтите по ссылку](Delivery-optimizer/README.md)
+
 
 
