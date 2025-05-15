@@ -16,3 +16,5 @@ python3 ./Delivery-optimizer/delivery_optimizer.py
     Введите количество курьеров:
         > ...
 ```
+
+[Назад к README](../README.md)
