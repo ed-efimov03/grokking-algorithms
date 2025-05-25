@@ -26,6 +26,9 @@ def get_input_interactive():
 
 
 def assign_orders(orders, courier_count, logging=True):
+    if courier_count <= 0:
+        raise ValueError("Количество курьеров должно быть положительным числом")
+
     orders = sorted(orders, key=lambda x: x[0])  
     courier_heap = [(0, i) for i in range(courier_count)] 
     heapq.heapify(courier_heap) #Минимальная куча (первый элемент всегда наименьший)
